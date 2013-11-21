@@ -1,0 +1,44 @@
+{
+  "name": "Pluto-Compound",
+  "version": "0.1.0-1335",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "0.8.4",
+    "ejs-ext": "0.1.4-5",
+    "express": "3.3.5",
+    "compound": "1.1.7-8",
+    "kontroller": "0.0.9-16",
+    "requirejs": "2.1.8",
+    "http-auth": "1.2.7",
+    "coffee-script": "1.6.3",
+    "cluster": "0.7.7",
+    "seaport": "1.5.2",
+    "http-proxy": "0.10.3",
+    "optimist": "0.6.0"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "sinon": "*",
+    "supertest": ">= 0",
+    "mocha": ">= 0",
+    "should": ">= 0",
+    "semicov": "*",
+    "co-generators": "*",
+    "grunt": "0.4.1",
+    "grunt-contrib-requirejs": "0.4.1",
+    "can-compile": "0.2.1",
+    "grunt-cp": "0.1.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-less": "0.7.0",
+    "grunt-include-replace": "1.1.0",
+    "grunt-replace": "0.4.4",
+    "grunt-bumpup": "0.2.0",
+    "grunt-contrib-watch": "0.5.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --include test/init.js test/*/*.test.js"
+  }
+}
