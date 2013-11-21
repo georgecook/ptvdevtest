@@ -3,7 +3,7 @@ my_http = require("http");
 my_http.createServer(function(request,response){
 	sys.puts("I got kicked");
 	response.writeHeader(200, {"Content-Type": "text/plain"});
-	response.write("Hello World");
+	response.write("Hey now, World");
 	response.end();
 }).listen(80);
 sys.puts("Server Running on 80");	
